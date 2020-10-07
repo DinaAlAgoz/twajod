@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account</title>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="icofont/icofont.min.css" rel="stylesheet">
+    <link href="boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+<body>
+
+
+       <!-- ======= Header ======= -->
+        <!-- ======= Header ======= -->
+        <header id="header" class=" header fixed-top d-flex align-items-center header-transparent">
+          <div class="container d-flex align-items-center">
+          
+
+            <div class="logo float-right">
+              <!-- Uncomment below if you prefer to use an text logo -->
+              <!-- <h1><a href="index.html">NewBiz</a></h1> -->
+              <a href="index.html"><img src="img/logo4.png" alt="" class="img-fluid"></a>
+            </div>
+            
+             
+            <nav class="nav-menu accmenu d-none d-lg-block float-left navaccount onclick="show_hide()">
+              <ul>
+             
+                <li  class="drop-down drop2">
+                
+                  <a onclick="show_hide()"  href="#">info@twajd.com</a>  
+                  <ul class="dropmenuedown" style="display: none;" id="drop-content">
+                    <li class="controllestt"><a  href="account.html">
+                        </a>  <img src="img/grid.svg"><span> لوحة تحكم الحساب </span>  </li>
+                    <li ><a href="#">  </a><img src="img/settingsiconnnn.svg">اعدادات الحساب</li>
+                      <li ><a href="#">   </a><img src="img/log-out.svg"> تسجيل خروج </li>
+                  </ul>
+                  <li><a  class="vectorlog"  href="#"><img src="img/vector.png" > </a></li>
+                    <li><a href="#">
+                      <img src="img/bell.svg" ></a></li>
+                
+                  
+                </ul>
+            </nav><!-- .nav-menu -->
+      
+          </div>
+      </header><!-- End Header -->
+
+
+ <section class="mainfulbody" id="main">   
+
+
+
+  <section class="headacc" >
+  
+  <di class="BGshaffa2">
+    <img src="img/BGshaff2.svg">
+</di>
+
+    <section class="account">
+
+        <div class="container">
+
+            <div class="hed">
+                <h2>إعدادات الحساب </h2>
+            </div>
+
+            <div class="row firstbox">
+               
+                 
+
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="basicinfo">
+                        <h4>المعلومات الأساسية</h4>
+                        <div class="infobox">
+
+                            <div class="field">
+                      
+                                <label> الاسم الاول</label>
+                           
+                                <input type="text" required>
+                              </div>
+
+
+                              <div class="field">
+                      
+                                <label> الاسم الثانى</label>
+                           
+                                <input type="text" required>
+                              </div>
+
+                              <div class="btnsupload">
+                          <a href=""><button class="btn uploadpic"> اضف صوره</button></a>
+                          <a href=""><button class="btn deletepic"> حذف </button></a>
+
+                        </div>
+                         
+                                            
+                      <div class="drop-zone">
+                        <img src = "img/camera.svg">
+                        <span class="drop-zone__prompt">صورة الملف الشخصي</span>
+                        <input type="file" name="myFile" class="drop-zone__input">
+                      </div>
+                          
+                      <div class="savbtn btnacc text-center" >
+                        <a href=""><button class="btn savebtn"> حفظ التغيرات </button></a>
+                      </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  
+                    <div class="basicinfo infohay">
+                        <h4> كلمة المرور الحالية </h4>
+                        <div class="infobox">
+
+                            <div class="field">
+                      
+                                <label> كلمة المرور الحالية </label>
+                           
+                                <input type="password" required>
+                              </div>
+
+                              <div class="field">
+                      
+                                <label>  كلمة المرور الجديدة
+                                </label>
+                                <input type="password" required>
+                              </div>
+
+
+                              <div class="field">
+                      
+                                <label> إعادة كلمة المرور الجديدة
+                                </label>
+                                <input type="password" required>
+                              </div>
+
+                              <div class="savbtn savv2  passbtn text-center">
+                                <a href=""><button class="btn savebtn"> حفظ التغيرات </button></a>
+                              </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row secbox">
+
+              <div class="col-lg-12 col-md-12">
+                <div class="accheadd">
+                  <h3>إعدادات الحساب</h3>
+                </div>
+                <div class="accseeting">
+                  
+                   <div class="row">
+                    <div class=" col-md-6">
+                       <div class="boxseleted text-center">
+
+
+                      <div class="select">
+                       
+                        <label class="label1">  اللغة</label>
+                   
+                    <select class="selectlist" name="format" id="format">
+                      <option selected >العربية</option>
+                      <option value="english"> الانجليزية</option>
+                    </select>
+                      </div>
+                    
+                   
+
+
+                      <div class="select">
+                      
+                        <label class="label1"> التوقيت</label>
+                   
+                    <select class="selectlist" name="format" id="format">
+                      <option selected > Cairo</option>
+                      <option value=" asd">Alex</option>
+                      <option value="AUS">  Aswan</option>
+                    </select>
+                      </div>
+
+                    
+                    </div>
+                    </div>
+                  
+                    <div class=" col-md-6">
+                     
+                      <div class="select">
+                      
+                        <label> الدولة</label>
+                   
+                    <select class="selectlist" name="format" id="format">
+                      <option selected >جمورية مصر العربية</option>
+                      <option value="الامارات المتحدة"> الامارات المتحدة العربية</option>
+                      <option value="AUS"> امريكا الشمالية</option>
+                    </select>
+
+
+                    <div class="savbtn savv2 text-center">
+                      <a href=""><button class="btn savebtn"> حفظ التغيرات </button></a>
+                    </div> 
+
+
+
+
+
+                      </div>
+
+                      
+            
+
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+         
+        </div>
+
+
+    
+
+    </section>
+
+    
+    <di class="dottsaccount">
+      <img  src="img/Group-2x.png">
+  </di>
+
+    </section>
+
+    <div class="headerofprice text-center">
+    
+      <h2>لديك إستفسار ؟!</h2>
+      <h3>توجه إلي مركز المساعدة</h3>
+  </div>
+
+</section>
+
+<!-- End Departments Section -->
+
+ 
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact ">
+
+  <div class="fotter" id="fotter">
+    <div class="container">
+
+      <div class="row footer">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="fotterlogo">
+          <a href="index.html"> <img src="img/Group_24.png"></a> 
+           
+            <p>تواجد منصة متكاملة بناء موقعك بسهولة هدفها الرئيسي توفير المزيد من وقتك لتنفيذ خطط نمو مشروعك
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-6">
+          <div class="listlink">
+            <ul>
+            <a href=""><li>الرئيسية</li></a>
+            <a href=""><li>التسجيل</li></a>
+            <a href=""><li>الاسعار</li></a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-6">
+          <div class="listlink">
+            <ul>
+            <a href=""><li>مركز المساعدة</li></a>
+            <a href=""><li>الخصوصية</li></a>
+            <a href=""><li>شروط الخدمة</li></a>
+            <div class="soical-media">
+              <a href="index.html"> <li><i class="fab fa-facebook-f"></i></li></a>
+              <a href="index.html"> <li><i class="fab fa-instagram"></i></li></a>
+              <a href="index.html"> <li><i class="fab fa-twitter"></i></li></a>
+            </div>
+            </ul>
+            
+
+          </div>
+         
+
+          
+        </div>
+
+
+      </div>
+      
+      <div class="copyright text-center">
+      <p>جميع الحقوق محفوظة . منصة تواجد لإنشاء المواقع</p>
+    </div>
+  </div>
+  </div>
+
+</section><!-- End Contact Section -->
+
+
+
+
+
+
+<!---
+<div class="dropdown p-5" >
+  <div>
+    <button onclick="show_hide()" class="button"> Drop</button>
+    <div style="display: none;" id="drop-content">
+      <a href="#">Item1</a>
+      <a href="#">Item2</a>
+      <a href="#">Item3</a>
+      <a href="#">Item4</a>
+    </div>
+  </div>
+</div>
+
+-->
+
+   
+
+
+
+
+
+
+   
+
+
+
+
+
+
+  <script src="js/aos.js"></script>
+  <script>
+   AOS.init({
+    duration: 1000,
+   });
+  </script>
+  <script>
+  
+  </script>
+  <script src="js/corden.js"></script>
+  <script src="js/jquery-3.5.0.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/isotope.pkgd.js"></script>
+  <script src="js/fox.js"></script>
+  
+
+ 
+
+</body>
+</html>

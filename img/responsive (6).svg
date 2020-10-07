@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="95px" viewBox="0 0 99 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>responsive</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-v1" transform="translate(-1293.000000, -3727.000000)">
+            <g id="Group-17" transform="translate(418.000000, 3526.000000)">
+                <g id="responsive" transform="translate(876.000000, 202.000000)">
+                    <polyline id="Path" fill="#FFDF7B" points="86 22 98 22 98 80 44 80"></polyline>
+                    <polyline id="Path" fill="#FFDF7B" points="22 80 10 80 10 22 52 22"></polyline>
+                    <path d="M84,50 L54,50 C52.896,50 52,49.104 52,48 L52,12 C52,10.896 52.896,10 54,10 L84,10 C85.104,10 86,10.896 86,12 L86,48 C86,49.104 85.104,50 84,50 Z" id="Path" fill="#2E9FFF"></path>
+                    <path d="M42,94 L24,94 C22.896,94 22,93.104 22,92 L22,64 C22,62.896 22.896,62 24,62 L42,62 C43.104,62 44,62.896 44,64 L44,92 C44,93.104 43.104,94 42,94 Z" id="Path" fill="#D5F7D9"></path>
+                    <g id="responsive-copy" stroke="#111111" stroke-linecap="square" stroke-width="2">
+                        <polyline id="Path" points="76 12 88 12 88 70 34 70"></polyline>
+                        <polyline id="Path" points="12 70 0 70 0 12 42 12"></polyline>
+                        <path d="M74,40 L44,40 C42.896,40 42,39.104 42,38 L42,2 C42,0.896 42.896,0 44,0 L74,0 C75.104,0 76,0.896 76,2 L76,38 C76,39.104 75.104,40 74,40 Z" id="Path"></path>
+                        <path d="M32,84 L14,84 C12.896,84 12,83.104 12,82 L12,54 C12,52.896 12.896,52 14,52 L32,52 C33.104,52 34,52.896 34,54 L34,82 C34,83.104 33.104,84 32,84 Z" id="Path"></path>
+                        <path d="M42,80 L54,80" id="Path"></path>
+                        <path d="M22,74 L24,74" id="Path"></path>
+                        <path d="M56,30 L62,30" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

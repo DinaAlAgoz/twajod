@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="972px" viewBox="0 0 1920 972" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>mdpi/07 Need a super hero?</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="49.325979%" y1="0%" x2="49.325979%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4BC7EC" offset="0%"></stop>
+            <stop stop-color="#FFF4E5" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.18">
+        <g id="Home-v1" transform="translate(0.000000, -5576.000000)" fill="url(#linearGradient-1)">
+            <g id="07-Need-a-super-hero?" transform="translate(-15.000000, 5576.000000)">
+                <g id="Bg">
+                    <ellipse id="Oval" cx="968" cy="486" rx="968" ry="486"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
